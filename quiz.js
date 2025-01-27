@@ -9,3 +9,4 @@ if (userAnswer === correctAnswer){
 } else {
     document.getElementById('#feedback').textContent = ["That's incorrect. Try again!"];
 }
+document.getElementById('submit-answer').addEventListener('checkAnswer');
